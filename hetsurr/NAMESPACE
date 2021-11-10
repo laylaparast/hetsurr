@@ -1,0 +1,5 @@
+importFrom(stats, bw.nrd, quantile,pnorm, sd,var,pchisq,dnorm,rnorm)
+importFrom(Rsurrogate, R.s.estimate)
+importFrom(graphics, par, points, legend)
+export("delta.s.estimate.w", "hetsurr.fun", "hetsurr.plot", "kf", "mu0wy", "mu10", "mu1swy",
+       "mu1wy")
